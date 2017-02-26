@@ -1,0 +1,27 @@
+Package utilizado para exibir o feed:
+https://packagist.org/packages/willvincent/feeds
+
+=========================================================================
+Caso ocorrer erro de ssl ao exibir o feed de notícias. Siga os passos:
+
+1)
+*Será necessário editar o arquivo php.ini:
+;;;;;;;;;;;;;;;;;;;;
+; php.ini Options  ;
+;;;;;;;;;;;;;;;;;;;;
+#CASO SER XAMP:
+curl.cainfo = "C:\xampp\php\extras\ssl\cacert.pem"
+
+#CASO SER WAMPP:
+curl.cainfo = "C:\wamp\bin\php\php5.5.12\extras\ssl\cacert.pem"
+------------------------------------------------------------
+2)
+*Fazer o download do arquivo e colar no diretório informado acima
+https://gist.github.com/VersatilityWerks/5719158/download
+------------------------------------------------------------
+3)
+*Reiniciar o servidor local
+=======================================================================
+Leticia Scalco
+13 99670-0855
+leticiascalco.info@gmail.com
