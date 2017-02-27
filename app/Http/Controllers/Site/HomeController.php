@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests\UserRequest;
 use App\Http\Controllers\Controller;
 use Feeds;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller{
 
@@ -19,7 +20,12 @@ class HomeController extends Controller{
 
     //retorna view index
     public function home(){
+
+      if (Auth::check()) { 
+        $return = redirect()->to('noticia');
+      }else{
         $return = view('layouts.index');
+      }          
         return $return;
     }
 
