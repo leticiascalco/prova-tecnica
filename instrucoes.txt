@@ -1,3 +1,6 @@
+dump esta na raiz do projeto
+-------------------------------------------------
+
 Package utilizado para exibir o feed:
 https://packagist.org/packages/willvincent/feeds
 
@@ -25,3 +28,5 @@ https://gist.github.com/VersatilityWerks/5719158/download
 Leticia Scalco
 13 99670-0855
 leticiascalco.info@gmail.com
+
+
